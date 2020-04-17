@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		C93448AD2449D89A0062E1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448AB2449D89A0062E1BE /* Main.storyboard */; };
 		C93448AF2449D89B0062E1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93448AE2449D89B0062E1BE /* Assets.xcassets */; };
 		C93448B22449D89B0062E1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448B02449D89B0062E1BE /* LaunchScreen.storyboard */; };
+		C93448BB2449D90E0062E1BE /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = C93448BA2449D90E0062E1BE /* PanModal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93448BB2449D90E0062E1BE /* PanModal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = panModalTest;
+			packageProductDependencies = (
+				C93448BA2449D90E0062E1BE /* PanModal */,
+			);
 			productName = panModalTest;
 			productReference = C93448A22449D89A0062E1BE /* panModalTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C93448992449D89A0062E1BE;
+			packageReferences = (
+				C93448B92449D90E0062E1BE /* XCRemoteSwiftPackageReference "PanModal" */,
+			);
 			productRefGroup = C93448A32449D89A0062E1BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C93448B92449D90E0062E1BE /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C93448BA2449D90E0062E1BE /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C93448B92449D90E0062E1BE /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C934489A2449D89A0062E1BE /* Project object */;
 }

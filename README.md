@@ -1,3 +1,4 @@
 # FloatingModalTest
 
-[panModal](https://github.com/slackhq/PanModal) Playground
+- [FloatingPanel](https://github.com/SCENEE/FloatingPanel)
+- [PanModal](https://github.com/slackhq/PanModal)

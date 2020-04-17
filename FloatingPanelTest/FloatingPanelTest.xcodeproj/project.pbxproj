@@ -14,6 +14,7 @@
 		C93448D22449DD2F0062E1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93448D12449DD2F0062E1BE /* Assets.xcassets */; };
 		C93448D52449DD2F0062E1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448D32449DD2F0062E1BE /* LaunchScreen.storyboard */; };
 		C93448DE2449DD7C0062E1BE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = C93448DD2449DD7C0062E1BE /* FloatingPanel */; };
+		C93448E02449DDEA0062E1BE /* FloatingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C93448D12449DD2F0062E1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93448D42449DD2F0062E1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93448D62449DD2F0062E1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C93448C82449DD2E0062E1BE /* AppDelegate.swift */,
 				C93448CA2449DD2E0062E1BE /* SceneDelegate.swift */,
 				C93448CC2449DD2E0062E1BE /* ViewController.swift */,
+				C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */,
 				C93448CE2449DD2E0062E1BE /* Main.storyboard */,
 				C93448D12449DD2F0062E1BE /* Assets.xcassets */,
 				C93448D32449DD2F0062E1BE /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93448CD2449DD2E0062E1BE /* ViewController.swift in Sources */,
+				C93448E02449DDEA0062E1BE /* FloatingPanelViewController.swift in Sources */,
 				C93448C92449DD2E0062E1BE /* AppDelegate.swift in Sources */,
 				C93448CB2449DD2E0062E1BE /* SceneDelegate.swift in Sources */,
 			);

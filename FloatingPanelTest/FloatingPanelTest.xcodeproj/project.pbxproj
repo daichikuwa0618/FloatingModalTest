@@ -15,6 +15,7 @@
 		C93448D52449DD2F0062E1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448D32449DD2F0062E1BE /* LaunchScreen.storyboard */; };
 		C93448DE2449DD7C0062E1BE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = C93448DD2449DD7C0062E1BE /* FloatingPanel */; };
 		C93448E02449DDEA0062E1BE /* FloatingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */; };
+		C93448E22449E36F0062E1BE /* CustomFloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93448E12449E36F0062E1BE /* CustomFloatingPanelLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C93448D42449DD2F0062E1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93448D62449DD2F0062E1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelViewController.swift; sourceTree = "<group>"; };
+		C93448E12449E36F0062E1BE /* CustomFloatingPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFloatingPanelLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C93448C82449DD2E0062E1BE /* AppDelegate.swift */,
 				C93448CA2449DD2E0062E1BE /* SceneDelegate.swift */,
 				C93448CC2449DD2E0062E1BE /* ParentViewController.swift */,
+				C93448E12449E36F0062E1BE /* CustomFloatingPanelLayout.swift */,
 				C93448DF2449DDEA0062E1BE /* FloatingPanelViewController.swift */,
 				C93448CE2449DD2E0062E1BE /* Main.storyboard */,
 				C93448D12449DD2F0062E1BE /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93448CD2449DD2E0062E1BE /* ParentViewController.swift in Sources */,
+				C93448E22449E36F0062E1BE /* CustomFloatingPanelLayout.swift in Sources */,
 				C93448E02449DDEA0062E1BE /* FloatingPanelViewController.swift in Sources */,
 				C93448C92449DD2E0062E1BE /* AppDelegate.swift in Sources */,
 				C93448CB2449DD2E0062E1BE /* SceneDelegate.swift in Sources */,

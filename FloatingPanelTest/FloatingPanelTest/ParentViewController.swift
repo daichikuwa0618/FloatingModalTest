@@ -17,6 +17,7 @@ class ParentViewController: UIViewController {
         super.viewDidLoad()
 
         floatingPanelController = FloatingPanelController()
+        floatingPanelController.delegate = self
 
         let floatingPanelViewController = FloatingPanelViewController()
         floatingPanelController.set(contentViewController: floatingPanelViewController)
@@ -33,3 +34,10 @@ class ParentViewController: UIViewController {
     }
 }
 
+// FloatingPanelControllerDelegate を実装してカスタマイズしたレイアウトを返す
+extension ParentViewController: FloatingPanelControllerDelegate {
+
+    func floatingPanel(_ vc: FloatingPanelController, layoutFor newCollection: UITraitCollection) -> FloatingPanelLayout? {
+        return CustomFloatingPanelLayout()
+    }
+}

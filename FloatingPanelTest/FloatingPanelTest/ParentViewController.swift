@@ -19,7 +19,8 @@ class ParentViewController: UIViewController {
         floatingPanelController = FloatingPanelController()
         floatingPanelController.delegate = self
 
-        let floatingPanelViewController = FloatingPanelViewController()
+        let floatingStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let floatingPanelViewController = floatingStoryboard.instantiateViewController(identifier: "FloatingPanelViewController")
         floatingPanelController.set(contentViewController: floatingPanelViewController)
 
         // FloatingPanel の表示

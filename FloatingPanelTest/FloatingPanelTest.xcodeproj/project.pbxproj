@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		C93448D02449DD2E0062E1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448CE2449DD2E0062E1BE /* Main.storyboard */; };
 		C93448D22449DD2F0062E1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93448D12449DD2F0062E1BE /* Assets.xcassets */; };
 		C93448D52449DD2F0062E1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93448D32449DD2F0062E1BE /* LaunchScreen.storyboard */; };
+		C93448DE2449DD7C0062E1BE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = C93448DD2449DD7C0062E1BE /* FloatingPanel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93448DE2449DD7C0062E1BE /* FloatingPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = FloatingPanelTest;
+			packageProductDependencies = (
+				C93448DD2449DD7C0062E1BE /* FloatingPanel */,
+			);
 			productName = FloatingPanelTest;
 			productReference = C93448C52449DD2E0062E1BE /* FloatingPanelTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C93448BC2449DD2E0062E1BE;
+			packageReferences = (
+				C93448DC2449DD7C0062E1BE /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+			);
 			productRefGroup = C93448C62449DD2E0062E1BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C93448DC2449DD7C0062E1BE /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SCENEE/FloatingPanel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C93448DD2449DD7C0062E1BE /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C93448DC2449DD7C0062E1BE /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C93448BD2449DD2E0062E1BE /* Project object */;
 }
